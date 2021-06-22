@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+}
+
+.nav{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.nav ul li{
+  list-style-type: none;
+  cursor: pointer;
+  
+}
+
+.nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: #222;
+  color: aliceblue;
+  display: block;
+}
+.nav a:hover{
+  text-decoration: underline;
+}

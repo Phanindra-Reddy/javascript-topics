@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+ <html>
+      <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+          crossorigin="anonymous">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>My Practise Page</title>
+        <link rel="stylesheet" type="text/css" href="./practise.css">
+        <link rel="icon" href="my-photo.png">
+      </head>
+
+      <body>
+        <div class="container my-3">
+          <h3 class="text-center">Welcome to <strong>Pack Your Bags</strong> Travels</h3>
+
+          <form>
+
+            <div id="success" class="alert alert-success alert-dismissible fade" role="alert">
+              <strong>Success!</strong> Your Form is Submitted Successfully.
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+
+            <div id="failure" class="alert alert-danger alert-dismissible fade" role="alert">
+              <strong>Failed!</strong> Enter required details.
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+
+            <div class="form-group">
+              <label for="name">Username</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter Your Name">
+              <div id="nameValid" class="invalid-feedback">
+                Name should not starts with numbers, length sholud be atleast 5 characters and name does not exceed 15 chars.
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="text" class="form-control" id="email" placeholder="Enter Your Email">
+              <div id="emailValid" class="invalid-feedback">
+                  Enter a Valid Email.
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="phone">Mobile Number</label>
+              <input type="text" class="form-control" id="phone" placeholder="Enter Your Mobile Number">
+              <div id="phoneValid" class="invalid-feedback">
+                Mobile number sholud be exactly 10 Chaacters.
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Select Car</label>
+              <select class="form-control" id="car">
+                <option>Audi A4</option>
+                <option>Honda city</option>
+                <option>Ford titanium</option>
+                <option>Hyundai</option>
+                <option>Rolls Roys</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="address">Enter Your Address</label>
+              <textarea class="form-control" id="address"></textarea>
+            </div>
+            <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+    
+        
+       
+       <script type="text/javascript" src="Regex1.js"> </script>
+
+       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+           integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" 
+           crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+           integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+           crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+            crossorigin="anonymous"></script>
+      </body>
+</html>
+
+
+
