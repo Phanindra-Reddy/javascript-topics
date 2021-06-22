@@ -1,3 +1,6 @@
+
+// This is basics of call(), apply(), bind() methods along with polyfill for bind()
+
 var obj1 ={
     firstName : "Phanindra",
     lastName : "Reddy"
@@ -39,4 +42,7 @@ Function.prototype.myBind = function(...args){
 
 let details5 = fullName.myBind(obj1);
 details5('warangal','computers');
+
+
+
 
